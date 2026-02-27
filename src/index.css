@@ -23,9 +23,25 @@
   text-decoration: underline;
 }
 
-.home{
-  height: 60px;
-  margin: 15px;
+.dropdown-color{
+  color: #ECEED9;
+}
+
+.dropdown-color:hover{
+  color: #F3C968;
+}
+
+.home {
+  max-height: 55px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.header {
+  padding: 0.5rem 1rem;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
 }
 
 .home:hover{
@@ -56,7 +72,12 @@
 .nav-ul-li {
   margin: 0 25px;          
   cursor: pointer;
-  white-space: nowrap;     
+  white-space: nowrap;
+  color: #ECEED9;     
+}
+
+.nav-ul-li:hover{
+  color: #F3C968;
 }
 
 .dropdown-box{
@@ -245,9 +266,9 @@ html {
   padding-inline: 450px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .cards {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
