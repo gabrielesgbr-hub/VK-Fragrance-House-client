@@ -1,0 +1,233 @@
+[
+    {
+        "_id": 1,
+        "nombre": "Jean Paul Gaultier Le Male Elixir EDP 200ml",
+        "precio": "$2399.00",
+        "categoria": "Caballero",
+        "marca": "Jean Paul Gaultier",
+        "condición": "Parcial 180ml",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_901129-MLU72387490667_102023-O.webp",
+        "descripcion": "Le Male Elixir de Jean Paul Gaultier es una fragancia de la familia olfativa Ámbar Fougère para Hombres. Se lanzó en 2023. La Nariz detrás de esta fragrancia es Quentin Bisch. Las Notas de Salida son lavanda y menta; las Notas de Corazón son vainilla y benjuí; las Notas de Fondo son miel, haba tonka y tabaco.",
+        "stock": 3
+    },
+    {
+        "_id": 2,
+        "nombre": "Moschino Toy Boy EDP 100ml",
+        "precio": "$899.00",
+        "categoria": "Caballero",
+        "marca": "Moschino",
+        "condición": "Nuevo y Sellado",
+        "img": "https://resources.sanborns.com.mx/imagenes-sanborns-ii/1200/8011003845132.jpg",
+        "descripcion": "Toy Boy de Moschino es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Se lanzó en 2019. La Nariz detrás de esta fragrancia es Yann Vasnier. Las Notas de Salida son pimienta rosa, pera y nuez moscada; las Notas de Corazón son rosa, magnolia y clavo de olor; las Notas de Fondo son vetiver, sándalo y cachemira.",
+        "stock": 5
+    },
+    {
+        "_id": 3,
+        "nombre": "Afnan Turathi Blue EDP 90ml",
+        "precio": "$699.00",
+        "categoria": "Caballero",
+        "marca": "Afnan",
+        "condición": "Nuevo y Sellado",
+        "img": "https://www.sohrelia.com/cdn/shop/files/AFN17_51346237-edb7-4b46-aee1-b5c3cb06f34e.png?v=1763062026&width=1946",
+        "descripcion": "Turathi Blue de Afnan es una fragancia de la familia olfativa Aromática Acuática para Hombres. Se lanzó en 2021. Las Notas de Salida son cítricos y bergamota; las Notas de Corazón son notas amaderadas y ámbar; las Notas de Fondo son almizcle, pachulí y especias frescas.",
+        "stock": 4
+    },
+    {
+        "_id": 4,
+        "nombre": "Afnan 9pm Rebel EDP 100ml",
+        "precio": "$749.00",
+        "categoria": "Caballero",
+        "marca": "Afnan",
+        "condición": "Nuevo y Sellado",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_960000-MLM90568416353_082025-O.webp",
+        "descripcion": "9 PM Rebel de Afnan es una fragancia de la familia olfativa Aromática Frutal para Hombres y Mujeres. Esta fragrancia es nueva, lanzada en 2024. La Nariz detrás de esta fragrancia es Gaël Montero. Las Notas de Salida son piña, manzana Granny Smith y mandarina; las Notas de Corazón son musgo de roble, vainilla y cedro; las Notas de Fondo son ámbar gris, Madera seca, caramelo y almizcle.",
+        "stock": 2
+    },
+    {
+        "_id": 5,
+        "nombre": "Anan 9pm EDP 100ml",
+        "precio": "$629.00",
+        "categoria": "Caballero",
+        "marca": "Afnan",
+        "condición": "Nuevo y Sellado",
+        "img": "https://cdn11.bigcommerce.com/s-2vt02okold/images/stencil/1280x1280/products/3775/5085/HAFN9__48097.1731099908.jpg?c=1",
+        "descripcion": "9pm de Afnan es una fragancia de la familia olfativa Ámbar Vainilla para Hombres. Se lanzó en 2020. Las Notas de Salida son manzana, canela, lavanda silvestre y bergamota; las Notas de Corazón son flor de azahar del naranjo y lirio de los valles; las Notas de Fondo son vainilla, haba tonka, ámbar y pachulí.",
+        "stock": 8
+    },
+    {
+        "_id": 6,
+        "nombre": "Armaf Club de Nuit Sillage EDP 105ml",
+        "precio": "$689.00",
+        "categoria": "Caballero",
+        "marca": "Armaf",
+        "condición": "Nuevo y Sellado",
+        "img": "https://m.media-amazon.com/images/I/61hLHcZoRIL._AC_UF1000,1000_QL80_.jpg",
+        "descripcion": "Club de Nuit Sillage de Armaf es una fragancia de la familia olfativa Almizcle Floral Amaderado para Hombres y Mujeres. Se lanzó en 2020. Las Notas de Salida son bergamota, grosellas negras, limón y lima; las Notas de Corazón son rosa, jazmín e iris; las Notas de Fondo son almizcle, sándalo, cedro y ambroxan.",
+        "stock": 4
+    },
+    {
+        "_id": 7,
+        "nombre": "Armaf Odyssey Limoni EDP 100ml",
+        "precio": "$619.00",
+        "categoria": "Caballero",
+        "marca": "Armaf",
+        "condición": "Nuevo y Sellado",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp9i0BNLRPC0EERWrXkBqdA0C2ePKVcIEBsQ&s",
+        "descripcion": "Odyssey Limoni de Armaf es una fragancia de la familia olfativa Cítrica para Hombres. Las Notas de Salida son limón, mandarina y notas marinas; las Notas de Corazón son jengibre, menta y notas florales; las Notas de Fondo son ámbar, almizcle y notas amaderadas.",
+        "stock": 3
+    },
+    {
+        "_id": 8,
+        "nombre": "Armaf Odyssey Homme EDP 100ml",
+        "precio": "$619.00",
+        "categoria": "Caballero",
+        "marca": "Armaf",
+        "condición": "Nuevo y Sellado",
+        "img": "https://cdn.fragrancenet.com/images/photos/900x900/474501.jpg",
+        "descripcion": "Odyssey Homme de Armaf es una fragancia de la familia olfativa Ámbar Amaderada para Hombres. Las Notas de Salida son vainilla, ámbar y manzana; las Notas de Corazón son iris, especias orientales y lavanda; las Notas de Fondo son cuero, notas amaderadas y pachulí.",
+        "stock": 5
+    },
+    {
+        "_id": 9,
+        "nombre": "Armaf Odyssey Mandarin Sky EDP 100ml",
+        "precio": "$659.00",
+        "categoria": "Caballero",
+        "marca": "Armaf",
+        "condición": "Nuevo y Sellado",
+        "img": "https://m.media-amazon.com/images/I/51ecNhUmgeL.jpg",
+        "descripcion": "Odyssey Mandarin Sky de Armaf es una fragancia de la familia olfativa Ámbar Amaderada para Hombres. Las Notas de Salida son mandarina, naranja y azafrán; las Notas de Corazón son caramelo, haba tonka y salvia; las Notas de Fondo son vetiver, cedro y ámbar.",
+        "stock": 3
+    },
+    {
+        "_id": 10,
+        "nombre": "Armaf Odyssey Homme White Edition EDP 100ml",
+        "precio": "$659.00",
+        "categoria": "Caballero",
+        "marca": "Armaf",
+        "condición": "Nuevo y Sellado",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_812079-MLC46545693413_062021-O.webp",
+        "descripcion": "Odyssey White Edition de Armaf es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Las Notas de Salida son pimienta rosa, toronja y cardamomo; las Notas de Corazón son lavanda y hojas de violeta; las Notas de Fondo son ámbar, pachulí y madera de gaiac.",
+        "stock": 4
+    },
+    {
+        "_id": 11,
+        "nombre": "Emper Stallion 53 EDP 100ml",
+        "precio": "$679.00",
+        "categoria": "Caballero",
+        "marca": "Emper",
+        "condición": "Nuevo y Sellado",
+        "img": "https://arome.mx/cdn/shop/files/stallion-53-6291108524893.png?v=1745413129",
+        "descripcion": "Stallion 53 de Emper es una fragancia de la familia olfativa Cuero para Hombres. Las Notas de Salida son cardamomo y notas especiadas; las Notas de Corazón son papiro de Egipto y violeta; las Notas de Fondo son sándalo, cedro, cuero y ámbar.",
+        "stock": 2
+    },
+    {
+        "_id": 12,
+        "nombre": "Lattafa Qaes Al Fursan EDP 90ml",
+        "precio": "$429.00",
+        "categoria": "Caballero",
+        "marca": "Lattafa",
+        "condición": "Nuevo y Sellado",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_633857-MLM53326963589_012023-O.webp",
+        "descripcion": "Qaed Al Fursan de Lattafa es una fragancia de la familia olfativa Aromática para Hombres y Mujeres. Las Notas de Salida son piña y azafrán; las Notas de Corazón son jazmín y bálsamo de abeto; las Notas de Fondo son ámbar, cedro y madera de oud.",
+        "stock": 10
+    },
+    {
+        "_id": 13,
+        "nombre": "Lattafa Khamrah EDP 100ml",
+        "precio": "$689.00",
+        "categoria": "Caballero",
+        "marca": "Lattafa",
+        "condición": "Nuevo y Sellado",
+        "img": "https://cdn11.bigcommerce.com/s-2vt02okold/products/3987/images/6107/MLATK__87961.1731099911.386.513.jpg?c=1",
+        "descripcion": "Khamrah de Lattafa es una fragancia de la familia olfativa Ámbar Vainilla para Hombres y Mujeres. Se lanzó en 2022. Las Notas de Salida son canela, nuez moscada y bergamota; las Notas de Corazón son dátiles, praliné, nardos y lirio de los valles; las Notas de Fondo son vainilla, haba tonka, ámbar y madera de akigala.",
+        "stock": 6
+    },
+    {
+        "_id": 14,
+        "nombre": "Lattafa Khamrah Qahwa EDP 100ml",
+        "precio": "$749.00",
+        "categoria": "Caballero",
+        "marca": "Lattafa",
+        "condición": "Nuevo y Sellado",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLu_VPrG9GHRf6oOQqqOko722RNavq-tQxfg&s",
+        "descripcion": "Khamrah Qahwa de Lattafa es una fragancia de la familia olfativa Ámbar Especiada para Hombres y Mujeres. Esta fragrancia es nueva, lanzada en 2023. Las Notas de Salida son jengibre, canela y cardamomo; las Notas de Corazón son praliné, café y flores blancas; las Notas de Fondo son vainilla, haba tonka y almizcle.",
+        "stock": 4
+    },
+    {
+        "_id": 15,
+        "nombre": "Nautica Voyage EDT 100ml",
+        "precio": "$349.00",
+        "categoria": "Caballero",
+        "marca": "Nautica",
+        "condición":"Nuevo y Sellado",
+        "img": "https://www.mueblesamerica.mx/img/1024/1024/resize/N/A/NAUT00001_x1.jpg",
+        "descripcion": "Nautica Voyage de Nautica es una fragancia de la familia olfativa Amaderada Acuática para Hombres. Se lanzó en 2006. La Nariz detrás de esta fragrancia es Maurice Roucel. Las Notas de Salida son manzana y hojas verdes; las Notas de Corazón son loto y mimosa; las Notas de Fondo son almizcle, cedro, musgo de roble y ámbar.",
+        "stock": 10
+    },
+    {
+        "_id": 16,
+        "nombre": "Lattafa Eclaire EDP 100ml",
+        "precio": "$849.00",
+        "categoria": "Dama",
+        "marca": "Lattafa",
+        "condición": "Nuevo y Sellado",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkasJuyegCAphRn8Vn9MKZU4zVvHlBlqxj7w&s",
+        "descripcion": "Eclaire de Lattafa es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Las Notas de Salida son caramelo, leche y azúcar; las Notas de Corazón son flores blancas y miel; las Notas de Fondo son vainilla, praliné y almizcle.",
+        "stock": 3
+    },
+    {
+        "_id": 17,
+        "nombre": "Lattafa Yara EDP 100ml",
+        "precio": "$649.00",
+        "categoria": "Dama",
+        "marca": "Lattafa",
+        "condición": "Nuevo y Sellado",
+        "img": "https://ss701.liverpool.com.mx/xl/1139240703.jpg",
+        "descripcion": "Yara de Lattafa es una fragancia de la familia olfativa Ámbar Vainilla para Mujeres. Se lanzó en 2020. Las Notas de Salida son heliotropo, orquídea y mandarina; las Notas de Corazón son acordes gourmand y frutas tropicales; las Notas de Fondo son vainilla, almizcle y sándalo.",
+        "stock": 7
+    },
+    {
+        "_id": 18,
+        "nombre": "Lattafa Yara Candy EDP 100ml",
+        "precio": "$649.00",
+        "categoria": "Dama",
+        "marca": "Lattafa",
+        "condición": "Nuevo y Sellado",
+        "img": "https://nuestrasfragancias.com/wp-content/uploads/2024/10/YARA-CANDY.jpg",
+        "descripcion": "Yara Candy de Lattafa es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Las Notas de Salida son manzana verde y frutas confitadas; las Notas de Corazón son fresa y gardenia; las Notas de Fondo son vainilla, sándalo y almizcle.",
+        "stock": 5
+    },
+    {
+        "_id": 19,
+        "nombre": "Armaf Odyssey Candee EDP 100ml",
+        "precio": "$649.00",
+        "categoria": "Dama",
+        "marca": "Armaf",
+        "condición": "Nuevo y Sellado",
+        "img": "https://fraganciasfiord.com.mx/wp-content/uploads/2024/10/Perfume-Odyssey-Candee-de-ARMAF-en-Fragancias-Fiord.jpg",
+        "descripcion": "Odyssey Candee de Armaf es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Las Notas de Salida son notas dulces y bergamota; las Notas de Corazón son notas florales y frutas rojas; las Notas de Fondo son ámbar, almizcle y sándalo.",
+        "stock": 4
+    },
+    {
+        "_id": 20,
+        "nombre": "Katy Perry Purr EDP 100ml",
+        "precio": "$559.00",
+        "categoria": "Dama",
+        "marca": "Katy Perry",
+        "condición": "Nuevo y Sellado",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWqDp-3s_gnUCKcBceAixZNOWTNv4nMSIj2A&s",
+        "descripcion": "Purr de Katy Perry es una fragancia de la familia olfativa Floral Frutal para Mujeres. Se lanzó en 2010. Las Notas de Salida son melocotón, manzana roja, gardenia y bambú; las Notas de Corazón son jazmín, fresia y rosa; las Notas de Fondo son vainilla, coco, orquídea, almizcle y sándalo.",
+        "stock": 6
+    },
+    {
+        "_id": 21,
+        "nombre": "Katy Perry Meow EDP 100ml",
+        "precio": "$549.00",
+        "categoria": "Dama",
+        "marca": "Katy Perry",
+        "condición": "Nuevo y Sellado",
+        "img": "https://m.media-amazon.com/images/I/51QZ0ppKJ+L._AC_UF1000,1000_QL80_.jpg",
+        "descripcion": "Meow de Katy Perry es una fragancia de la familia olfativa Floral Frutal para Mujeres. Se lanzó en 2011. La Nariz detrás de esta fragrancia es Givaudan. Las Notas de Salida son pera, mandarina, gardenia y jazmín; las Notas de Corazón son madreselva, flor de azahar del naranjo y lirio de los valles; las Notas de Fondo son vainilla, ámbar, almizcle y sándalo.",
+        "stock": 4
+    }
+]
