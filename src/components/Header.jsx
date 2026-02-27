@@ -21,7 +21,7 @@ const Header = () => {
                 <Navbar.Collapse id="responsive-navbar-nav" className="w-100">
                     <Nav className="mx-auto justify-content-center align-items-center w-100 ">
                         <Nav.Link as={HashLink} smooth to="/#catalogo" className='nav-ul-li px-3' scroll={(el)=>{setTimeout(()=>{el.scrollIntoView({behavior:'smooth', block:'start'})}, 300)}}>Perfumes</Nav.Link>
-                        <Nav.Link as={HashLink} smooth to="/#ubicacion" className='nav-ul-li px-3' scroll={(el)=>{setTimeout(()=>{el.scrollIntoView({behavior:'smooth', block:'start'})}, 300)}}>Ubicación</Nav.Link>
+                        <Nav.Link as={HashLink} smooth to="/#ubicacion" className='nav-ul-li px-3' scroll={(el)=>{setTimeout(()=>{el.scrollIntoView({behavior:'smooth', block:'start'})}, 1000)}}>Ubicación</Nav.Link>
                         <div className="d-flex justify-content-center">
                             <Dropdown as={Nav.Item} className='nav-ul-li px-2'>
                                 <Dropdown.Toggle className='nav-link border-0 bg-transparent dropdown-color' id='dropdown-shopping'>
