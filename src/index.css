@@ -1,0 +1,278 @@
+.centernav {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 20px;               
+}
+
+.center-li{
+  text-align: center;
+  list-style: none;
+}
+
+.center-li a:hover {
+  text-decoration: underline;
+}
+
+.footer-li{
+  text-decoration: none;
+  color: #ECEED9;
+}
+
+.footer-li:hover{
+  text-decoration: underline;
+}
+
+.home{
+  height: 60px;
+  margin: 15px;
+}
+
+.home:hover{
+  transform: scale(1.02);
+  transition: transform 0.2s ease; 
+}
+
+.header {
+  background: linear-gradient(to right, #121212 0%, #3a3a3a 50%, #121212 100%);
+  width: 100%;
+  padding: 0 20px;         
+}
+
+.navbar {
+  display: flex;
+  color: #ECEED9;
+  font-size: 1.1em; 
+}
+
+.navbar ul {
+  display: flex;          
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.nav-ul-li {
+  margin: 0 25px;          
+  cursor: pointer;
+  white-space: nowrap;     
+}
+
+.dropdown-box{
+  background-color: #ECEED9;
+}
+.dropdown-box a{
+  color: #121212 !important;
+}
+
+.dropdown-box a:hover{
+  color: #9A5005 !important;
+  background-color:#ECEED9
+}
+
+.nav-ul-li a  , .center-li a{
+  color: #ECEED9;
+  text-decoration: none;   
+  cursor: pointer;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 1s ease-in-out;
+}   
+
+.carousel-fade .carousel-item {
+  transition: opacity 1.2s ease-in-out;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background: none;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon {
+  filter: brightness(0) saturate(100%) invert(84%) sepia(15%) saturate(3293%) hue-rotate(343deg) brightness(99%) contrast(75%);
+}
+
+.carousel-control-next:hover .carousel-control-next-icon {
+  filter: brightness(0) saturate(100%) invert(84%) sepia(15%) saturate(3293%) hue-rotate(343deg) brightness(99%) contrast(75%); 
+}
+
+.carousel-img{
+  width: 100%;
+  max-height: 565px;
+  object-fit: cover;
+}
+
+.card{
+  border-color: #9A5005;
+  color: #121212;
+  background-color:#ECEED9;
+}
+
+.card-title{
+  min-height: 4.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-img{
+  height: 250px;
+  object-fit: cover;
+}
+
+.card:hover{
+  box-shadow:0 0 12px #9A5005;
+}
+
+.card a{
+  color: #121212;
+}
+
+.card a:hover{
+  color:#9A5005;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+.location {
+  background-color: #3a3a3a;
+  color: #ECEED9;
+}
+
+.btn-vk {
+  background-color:#121212;
+  color:#ECEED9;
+  border-color: #121212;
+  height: 55px;
+}
+
+.btn-vk:hover {
+  background-color:#9A5005;
+  color:#ECEED9;
+  border-color: #9A5005;
+}
+
+.btn-vk:active{
+  background-color:#9A5005 !important;
+  border-color: #9A5005 !important;
+  color:#ECEED9 !important;
+}
+
+.footer{
+  background: #000;
+  padding:30px 20px;
+  animation:fadePage .8s ease;
+}
+
+.footer li{
+  list-style: none;
+}
+
+body{
+  background: radial-gradient(circle, #3a3a3a 0%, #121212 100%);
+  font-family: 'Alyamama', sans-serif;
+  color: #ECEED9;
+  padding-top: 90px; 
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.h1-catalogo{
+  color: #ECEED9;
+  text-align: center;
+}
+
+.h1-ubicacion{
+  text-align: center;
+}
+
+#catalogo{
+  scroll-margin-top: 130px; 
+}
+
+#ubicacion{
+  scroll-margin-top: 90px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.inline-group {
+  max-width: 10.2rem;
+}
+
+.form-control[type="number"]::-webkit-inner-spin-button,
+.form-control[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+.detalle{
+  background-color:white;
+  color:#121212;
+}
+
+.detalle-divimg{
+  display: grid; 
+  justify-items: end;
+}
+
+.detalle img{
+  height: 480px;
+  object-fit: contain;
+}
+
+.detalle h2{
+  text-align: left;
+}
+
+.detalle p{
+  padding-right: 200px;
+}
+
+.registroform{
+  background-color: white;
+  color: #121212;
+  padding-inline: 450px;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+  }
+
+  .detalle img{
+    width:90%;
+    object-fit:'contain'
+  }
+  .registroform{
+    background-color: white;
+    color: #121212;
+    padding-inline: 10px;
+  }
+
+  .detalle p{
+    padding-right: 0px;
+  }
+}
