@@ -276,6 +276,7 @@ html {
 
 .detalle img{
   height: 480px;
+  max-width: 90%;
   object-fit: contain;
 }
 

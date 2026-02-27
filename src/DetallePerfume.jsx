@@ -34,10 +34,10 @@ const DetallePerfume = () =>{
         <>
             <Header />
             <div className="container-fluid row pb-5 detalle">
-                <div className="col-sm-6 pt-4 detalle-divimg">
+                <div className="col-lg-6 pt-4 detalle-divimg">
                     <img src={item.img} alt={item.nombre}/>
                 </div>
-                <div className=" pt-5 col-sm-6">
+                <div className=" pt-5 col-lg-6">
                     <h2>{item.nombre}</h2>
                     <h4>Marca: {item.marca}</h4>
                     <h4 className="pb-2">{item.precio}</h4>
