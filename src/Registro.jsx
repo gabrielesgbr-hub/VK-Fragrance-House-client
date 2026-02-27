@@ -66,7 +66,7 @@ const Registro = () =>{
                         </div>
                     </Form.Group>
                     <div className="d-flex justify-content-center">
-                        <Button className='btn-vk' style={{ height: '35px', width: '50%' }}>Regístrate</Button>
+                        <Button className='btn-vk2'>Regístrate</Button>
                     </div>
                 </Form>
             </div>

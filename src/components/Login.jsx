@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 function Login({ show, handleClose }) {
   return (
     <Modal show={show} onHide={handleClose} centered>
-      <Modal.Header closeButton style={{color:'#121212', backgroundColor:'#ECEED9'}}>
+      <Modal.Header closeButton className='login'>
         <Modal.Title>Iniciar Sesión</Modal.Title>
       </Modal.Header>
-      <Modal.Body style={{color:'#121212', backgroundColor:'#ECEED9'}}>
+      <Modal.Body className='login'>
         <Form>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Correo Electrónico:</Form.Label>
@@ -22,9 +22,9 @@ function Login({ show, handleClose }) {
           <Button className='btn-vk' style={{height:'35px', width:'100%'}}>Iniciar Sesión</Button>
         </Form>
       </Modal.Body>
-      <Modal.Footer style={{color:'#121212', backgroundColor:'#ECEED9', justifyContent:'center'}}>
-        <div>¿Has olvidado tu contraseña? <a href="" style={{color:'#9A5005'}}>Recuperar contraseña</a></div>
-        <div>¿No tienes una cuenta? <Link to={'/registro'} onClick={()=>{ window.scrollTo({ top: 0})}} style={{color:'#9A5005'}}>Regístrate</Link></div>
+      <Modal.Footer className='login-foot'>
+        <div>¿Has olvidado tu contraseña? <a href="">Recuperar contraseña</a></div>
+        <div>¿No tienes una cuenta? <Link to={'/registro'} onClick={()=>{ window.scrollTo({ top: 0})}}>Regístrate</Link></div>
       </Modal.Footer>
     </Modal>
   );

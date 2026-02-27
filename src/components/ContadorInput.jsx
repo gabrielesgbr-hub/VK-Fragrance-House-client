@@ -23,7 +23,7 @@ const ContadorInput = ({stock}) =>{
                 <i className="fa fa-minus"></i>
                 </button>
             </div>
-            <input className="form-control" value={cantidad} onChange={(e) => setCantidad(e.target.value)} type="number" style={{textAlign:'center'}}/>
+            <input className="form-control center" value={cantidad} onChange={(e) => setCantidad(e.target.value)} type="number"/>
             <div className="input-group-append">
                 <button className="btn btn-outline-secondary" onClick={Incrementar}>
                 <i className="fa fa-plus"></i>

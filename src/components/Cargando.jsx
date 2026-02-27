@@ -1,4 +1,4 @@
-import Spinner from 'react-bootstrap/Spinner';
+import Spinner from 'react-bootstrap/Spinner'
 
 function Cargando() {
   return (
@@ -8,4 +8,4 @@ function Cargando() {
   );
 }
 
-export default Cargando;
+export default Cargando

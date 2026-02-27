@@ -1,9 +1,9 @@
-.centernav {
+/* .centernav {
   display: flex;
   justify-content: center; 
   align-items: center;     
   gap: 20px;               
-}
+} */
 
 .center-li{
   text-align: center;
@@ -27,9 +27,14 @@
   color: #ECEED9;
 }
 
-.dropdown-color:hover{
-  color: #F3C968;
-}
+.dropdown-color:hover, 
+.dropdown-color:focus, 
+.dropdown-color:active,
+.dropdown-toggle.show.dropdown-color {
+  background-color: transparent !important; 
+  color: #C5A059 !important; 
+  box-shadow: none !important;
+} 
 
 .home {
   max-height: 55px;
@@ -37,11 +42,8 @@
   transition: transform 0.3s ease;
 }
 
-.header {
-  padding: 0.5rem 1rem;
-  min-height: 80px;
-  display: flex;
-  align-items: center;
+.home img{
+  margin: 0 auto;
 }
 
 .home:hover{
@@ -129,7 +131,7 @@
 .card{
   border-color: #9A5005;
   color: #121212;
-  background-color:#ECEED9;
+  background-color:white;
 }
 
 .card-title{
@@ -185,6 +187,26 @@
   color:#ECEED9 !important;
 }
 
+.btn-vk2{
+  background-color:#121212;
+  color:#ECEED9;
+  border-color: #121212;
+  height: 35px;
+  width: 50%;
+}
+
+.btn-vk2:hover {
+  background-color:#9A5005;
+  color:#ECEED9;
+  border-color: #9A5005;
+}
+
+.btn-vk2:active{
+  background-color:#9A5005 !important;
+  border-color: #9A5005 !important;
+  color:#ECEED9 !important;
+}
+
 .footer{
   background: #000;
   padding:30px 20px;
@@ -193,6 +215,11 @@
 
 .footer li{
   list-style: none;
+}
+
+.footer-img{
+  height:120px;
+  object-fit:contain;
 }
 
 body{
@@ -211,7 +238,7 @@ p {
   text-align: center;
 }
 
-.h1-ubicacion{
+.center{
   text-align: center;
 }
 
@@ -264,6 +291,21 @@ html {
   background-color: white;
   color: #121212;
   padding-inline: 450px;
+}
+
+.login{
+  color:#121212;
+  background-color:#ECEED9;
+}
+
+.login-foot{
+  justify-content: center;
+  color:#121212;
+  background-color:#ECEED9;
+}
+
+.login-foot a{
+  color: #9A5005;
 }
 
 @media (max-width: 1100px) {

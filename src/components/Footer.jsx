@@ -4,7 +4,7 @@ function Footer () {
     return(
         <footer className="footer">
             <div className="container row">
-                <img src={logo} alt="" className="col-sm-4 col-5" style={{height:'120px', objectFit:'contain'}} />
+                <img src={logo} alt="" className="col-sm-4 col-5 footer-img"/>
                 <ul className="col-sm-4 col-7">
                     <h5>¿Preguntas? Contáctanos</h5>
                     <li><i className="fa-brands fa-instagram"></i><a target="_blank" href="https://www.instagram.com/vk_fragrancehouse" rel="noopener" className='footer-li'> vk_fragrancehouse</a></li>

@@ -15,7 +15,7 @@ const Header = () => {
         <Navbar collapseOnSelect expand="lg" fixed="top" className="header">
             <Container fluid className="d-flex flex-column align-items-center">
                 <Navbar.Brand as={Link} to="/" onClick={() => window.scrollTo({ top: 0 })} className="mx-0">
-                    <img src={logo} className='home' alt="VK Fragrance House" style={{ margin: '0 auto' }} />
+                    <img src={logo} className='home' alt="VK Fragrance House"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className="border-0 bg-light mt-2" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="w-100">
