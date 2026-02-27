@@ -313,6 +313,12 @@ html {
   .cards {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .registroform{
+    background-color: white;
+    color: #121212;
+    padding-inline: 100px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -330,6 +336,7 @@ html {
     width:90%;
     object-fit:'contain'
   }
+
   .registroform{
     background-color: white;
     color: #121212;
