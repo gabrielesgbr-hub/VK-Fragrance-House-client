@@ -1,17 +1,15 @@
-import { useState } from 'react'
-
-const ContadorInput = ({stock}) =>{
-    const [cantidad, setCantidad] = useState(1)
-
+const ContadorInput = ({stock, cantidad, setCantidad}) =>{
     const Incrementar = () => {
         if (cantidad < stock) {
-        setCantidad(prev => prev + 1)
+            const nueva = cantidad + 1
+            setCantidad(nueva)
         }
     }
 
     const Decrementar = () => {
         if (cantidad > 1) {
-        setCantidad(prev => prev - 1)
+            const nueva = cantidad - 1
+            setCantidad(nueva)
         }
     }
 
@@ -23,7 +21,7 @@ const ContadorInput = ({stock}) =>{
                 <i className="fa fa-minus"></i>
                 </button>
             </div>
-            <input className="form-control center" value={cantidad} onChange={(e) => setCantidad(e.target.value)} type="number"/>
+            <input className="form-control center" value={cantidad} readOnly type="number"/>
             <div className="input-group-append">
                 <button className="btn btn-outline-secondary" onClick={Incrementar}>
                 <i className="fa fa-plus"></i>

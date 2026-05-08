@@ -4,11 +4,13 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import { useNavigate } from 'react-router-dom';
 
-function Login() {
+const LoginAdmin = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
+  const [error, setError] = useState("")
 
   const {loginAdmin} = useContext(GlobalContext)
+  const navigate = useNavigate()
 
   const onSubmit = async (e) => {
     e.preventDefault()
@@ -18,32 +20,43 @@ function Login() {
       password
     }
 
-    const exito = await loginAdmin(credenciales)
-    if (exito) useNavigate('/admin/perfumes')
+    const error = await loginAdmin(credenciales)
+
+    if (error){
+      setError(error)
+      setPassword('')
+      return
+    }
+
+    navigate('/admin/inventario') 
     setEmail('')
     setPassword('')
-  }
+    setError('')
+}
 
   return (
-    <div>
+    <div className='container'>
         <h2 className='center'>Iniciar Sesión</h2>
-        <Form className='login' onSubmit={onSubmit}>
+        <Form onSubmit={onSubmit}>
           <Form.Group className="p-4" controlId="exampleForm.ControlInput1">
             <Form.Label>Correo Electrónico:</Form.Label>
-            <Form.Control type="email" placeholder="Correo Electrónico *Obligatorio" value={email}
+            <Form.Control className='formcontrol' type="email" placeholder="Correo Electrónico *Obligatorio" value={email}
             onChange={(e) => setEmail(e.target.value)} />
           </Form.Group>
           <Form.Group className="p-4" controlId="exampleForm.ControlTextarea1">
             <Form.Label>Contraseña:</Form.Label>
-            <Form.Control type='password'placeholder='Contraseña *Obligatorio' value={password}
+            <Form.Control className='formcontrol' type='password'placeholder='Contraseña *Obligatorio' value={password}
             onChange={(e) => setPassword(e.target.value)} />
           </Form.Group>
           <div className="center">
-          <Button className='btn-vk m-3'>Iniciar Sesión</Button>
+            <div className='m-2' style={{color:'#ED3C21'}}>
+              {error}
+            </div>
+            <Button type="submit" className='btn-vk m-3'>Iniciar Sesión</Button>
           </div>
         </Form>
     </div>
   )
 }
 
-export default Login
+export default LoginAdmin

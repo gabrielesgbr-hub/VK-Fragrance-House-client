@@ -1,21 +1,20 @@
 import { useContext } from 'react'
 import Cargando from './Cargando'
-import PerfumeItem from './PerfumeItem'
+import PerfumePedidoItem from './PerfumePedidoItem'
 import { GlobalContext } from '../context/GlobalState'
 
-const PerfumesGrid = ({perfumes}) => {
-
+const PerfumePedidoLista = ({perfumes}) => {
   const {loading} = useContext(GlobalContext)
   
   if(loading) return <Cargando />
 
   return (
-    <section className='cards'>
+    <ul className='lista'>
         {perfumes.map((perfume) => {
-          return <PerfumeItem key={perfume._id} perfume={perfume}/>
+          return <PerfumePedidoItem key={perfume._id} perfume={perfume}/>
         })}
-    </section>
+    </ul>
   )
 }
 
-export default PerfumesGrid
+export default PerfumePedidoLista
