@@ -14,7 +14,7 @@ function Footer () {
                     <li><i className="fa-solid fa-envelope"></i> vkfragrancehouse@gmail.com</li>
                 </ul>
                 <ul className="col-sm-3">
-                    <h5>Servicio al Cliente</h5>
+                    <h5>Información Legal</h5>
                     <li><Link className='footer-li' to={'/aviso-privacidad'}>Aviso de Privacidad</Link></li>
                     <li><Link className='footer-li' to={'/terminos-condiciones'}>Términos y Condiciones</Link></li>
                     <li><Link className='footer-li' to={'/envios-devoluciones'}>Envíos y Devoluciones</Link></li>
