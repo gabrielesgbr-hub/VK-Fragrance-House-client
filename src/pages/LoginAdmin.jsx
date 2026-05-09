@@ -41,7 +41,7 @@ const LoginAdmin = () => {
       <div className="container-fluid">
         <Header />
       </div>
-      <div className='container'>
+      <div className='container pt-5 pb-4'>
           <h2 className='center'>Iniciar Sesión</h2>
           <Form onSubmit={onSubmit}>
             <Form.Group className="p-4" controlId="exampleForm.ControlInput1">
