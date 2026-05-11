@@ -17,19 +17,19 @@ const handleCantidad = (nuevaCantidad) => {
         <div className="col-1">
           <Button className="btn-light" onClick={() => quitarDelPedido(perfume._id)}>✕</Button>
         </div>
-        <div className="col-3 center">
-            <img src={perfume.img} alt={perfume.nombre} style={{objectFit:'cover', height:'100px'}} />
+        <div className="col-2 center d-none d-md-block">
+            <img src={perfume.img} alt={perfume.nombre} style={{objectFit:'cover', height:'90px'}} />
         </div>
-        <div className="col-2">
+        <div className="col-3 col-md-3">
             {perfume.nombre}
         </div>
-        <div className="col-1">
+        <div className="col-2 col-md-1">
           ${perfume.precio.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
         </div>
-        <div className="col-4 px-5">
+        <div className="col-4 col-md-3 px-4">
           <ContadorInput stock={perfume.stock} cantidad={cantidad} setCantidad={handleCantidad} />
         </div>
-        <div className="col-1 p-0">
+        <div className="col-2 col-md-2 center p-0">
           ${(perfume.precio*perfume.cantidad).toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
         </div>
     </div>

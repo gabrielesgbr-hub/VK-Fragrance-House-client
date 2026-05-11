@@ -1,9 +1,11 @@
 import { useState } from 'react'
+import Button from 'react-bootstrap/Button'
 
 const Search = ({onSearch}) => {
   const [query, setQuery] = useState("")
   const [categorias, setCategorias] = useState([])
   const [marcas, setMarcas] = useState([])
+  const [abierto, setAbierto] = useState(false)
 
   const handleChange = (e) => {
     setQuery(e.target.value)
@@ -26,7 +28,13 @@ const Search = ({onSearch}) => {
 
   return (
     <section>
+      <div>
         <input type="search" placeholder="Busca tu Fragancia" value={query} onChange={handleChange} className="searchbar my-2"/>
+        <Button className="btn-filtros-toggle d-lg-none mt-3" onClick={() => setAbierto(!abierto)}>
+          {abierto ? 'Ocultar filtros ▲' : 'Filtrar por ▼'}
+        </Button>
+      </div>
+      <div className={`filtros-contenido ${abierto ? 'filtros-abierto' : ''}`}> 
         <h3 className='mt-4'>Filtrar por</h3>
         <div className='mt-3'>
           <h4>Categoría:</h4>
@@ -76,7 +84,8 @@ const Search = ({onSearch}) => {
             <input className='check' type="checkbox" value="Nautica" onChange={handleMarca} /> Nautica
           </label>
         </div>
-    </section>
+      </div>
+  </section>
   )
 }
 

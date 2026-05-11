@@ -46,12 +46,12 @@ const LoginAdmin = () => {
           <Form onSubmit={onSubmit}>
             <Form.Group className="p-4" controlId="exampleForm.ControlInput1">
               <Form.Label>Correo Electrónico:</Form.Label>
-              <Form.Control className='formcontrol' type="email" placeholder="Correo Electrónico *Obligatorio" value={email}
+              <Form.Control className='formcontrol' type="email" placeholder="ejemplo@ejemplo.com" value={email}
               onChange={(e) => setEmail(e.target.value)} />
             </Form.Group>
             <Form.Group className="p-4" controlId="exampleForm.ControlTextarea1">
               <Form.Label>Contraseña:</Form.Label>
-              <Form.Control className='formcontrol' type='password'placeholder='Contraseña *Obligatorio' value={password}
+              <Form.Control className='formcontrol' type='password'placeholder='ejemplo123' value={password}
               onChange={(e) => setPassword(e.target.value)} />
             </Form.Group>
             <div className="center">
