@@ -26,7 +26,7 @@ const handleCantidad = (nuevaCantidad) => {
         <div className="col-2 col-md-1">
           ${perfume.precio.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
         </div>
-        <div className="col-4 col-md-3 px-4">
+        <div className="col-4 col-md-3 px-4 px-md-5">
           <ContadorInput stock={perfume.stock} cantidad={cantidad} setCantidad={handleCantidad} />
         </div>
         <div className="col-2 col-md-2 center p-0">
