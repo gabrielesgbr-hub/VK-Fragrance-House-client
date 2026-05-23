@@ -365,6 +365,10 @@ p {
   border-radius: 1px;
 }
 
+.btn-light{
+  background-color: white;
+}
+
 .btn-vk {
   background-color: #121212;
   color: #ECEED9;

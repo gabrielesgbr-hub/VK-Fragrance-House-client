@@ -14,7 +14,7 @@ const handleCantidad = (nuevaCantidad) => {
 
   return (
     <div className="row my-3">
-        <div className="col-1">
+        <div className="col-1 px-0 px-md-4">
           <Button className="btn-light" onClick={() => quitarDelPedido(perfume._id)}>✕</Button>
         </div>
         <div className="col-2 center d-none d-md-block">
